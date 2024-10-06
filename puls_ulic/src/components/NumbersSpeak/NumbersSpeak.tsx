@@ -15,7 +15,6 @@ const NumbersSpeak = forwardRef<HTMLElement, {}>((props, sectionRef) => {
   // Изменяем имя ref
   const [numbersInView, setNumbersInView] = useState(false);
   const [ref, inView] = useInView({
-    // Убираем повторное объявление ref
     threshold: 0.3,
     triggerOnce: true,
   });

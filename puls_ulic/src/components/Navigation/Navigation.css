@@ -1,8 +1,8 @@
-/* src/components/Navigation/Navigation.css */
+
 .main-menu {
     background-color: #ffc000; 
     border-radius: 9999px; 
-    margin: 0px auto 90px;  /* Убираем отрицательный margin */
+    margin: 0px auto 90px;
     padding: 20px 0px;
     width: 95%;
     max-width: 900px; 

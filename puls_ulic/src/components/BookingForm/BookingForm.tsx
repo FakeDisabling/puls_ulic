@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import "./BookingForm.css";
-import { useInView } from "react-intersection-observer"; // Импортируем useInView
-import { motion } from "framer-motion"; // Импортируем motion
+import { useInView } from "react-intersection-observer";
+import { motion } from "framer-motion";
 
 interface Errors {
   name?: string;

@@ -8,6 +8,7 @@ import AboutUs from "./components/AboutUs/AboutUs";
 import NumbersSpeak from "./components/NumbersSpeak/NumbersSpeak";
 import CallToAction from "./components/CallToAction/CallToAction";
 import ChooseTaxi from "./components/ChooseTaxi/ChooseTaxi";
+import RouteMap from "./components/RouteMap/RouteMap";
 import "./App.css";
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
       </Element>
 
       <ChooseTaxi />
+      <RouteMap />
     </div>
   );
 }

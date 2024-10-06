@@ -37,9 +37,9 @@ function AboutUs() {
         <div className="about-us-content">
           <motion.div
             className="image-container-about"
-            ref={image1Ref} // Добавляем ref к картинке 1
+            ref={image1Ref}
             initial={{ opacity: 0, scale: 0.8 }}
-            animate={image1InView ? { opacity: 1, scale: 1 } : {}} // Анимация картинки 1
+            animate={image1InView ? { opacity: 1, scale: 1 } : {}}
             transition={{ duration: 1, ease: "easeOut" }}
           >
             <img
@@ -63,9 +63,9 @@ function AboutUs() {
 
             <motion.div
               className="image-container-about"
-              ref={image2Ref} // Добавляем ref к картинке 2
+              ref={image2Ref}
               initial={{ opacity: 0, y: 50 }}
-              animate={image2InView ? { opacity: 1, y: 0 } : {}} // Анимация картинки 2
+              animate={image2InView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 1.2, ease: "easeOut" }}
             >
               <img
@@ -76,9 +76,9 @@ function AboutUs() {
           </div>
           <motion.div
             className="image-container-about"
-            ref={image3Ref} // Добавляем ref к картинке 3
+            ref={image3Ref}
             initial={{ opacity: 0, scale: 0.9 }}
-            animate={image3InView ? { opacity: 1, scale: 1 } : {}} // Анимация картинки 3
+            animate={image3InView ? { opacity: 1, scale: 1 } : {}}
             transition={{ duration: 1, ease: "easeInOut" }}
           >
             <img
