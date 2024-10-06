@@ -3,20 +3,17 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-/* src/App.css */
 .page-wrapper {
   background-image: url('./assets//background.png');
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
+  background-size: 100%;
   display: flex;
   flex-direction: column;
-  position: relative; /* Добавляем position relative для позиционирования ::before */
+  position: relative; 
 }
 
 .page-wrapper::before {
   content: '';
-  position: absolute; /* Позиционируем относительно .page-wrapper */
+  position: absolute; 
   top: 0;
   left: 0;
   width: 100%;
