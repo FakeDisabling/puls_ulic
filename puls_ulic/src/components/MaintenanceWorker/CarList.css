@@ -1,0 +1,32 @@
+.car-list ul {
+    list-style: none; 
+    padding: 0; 
+  }
+  
+  .car-item {
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px; 
+    cursor: pointer; 
+  }
+  
+  .car-item .plate {
+    font-weight: bold; 
+  }
+  
+  .car-item .status {
+    padding: 5px 10px;
+    border-radius: 5px; 
+    font-weight: bold;
+  }
+  
+  .car-item .status.в-обслуживании {
+    background-color: #ffc107; /* Желтый */
+    color: black;
+  }
+  
+  .car-item .status.готов {
+    background-color: #28a745; /* Зеленый */
+    color: white;
+  }

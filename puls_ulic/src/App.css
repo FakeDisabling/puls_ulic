@@ -2,7 +2,9 @@ body {
   margin: 0; 
   font-family: "Montserrat", sans-serif;
 }
-
+*{
+  font-family: "Montserrat", sans-serif;
+}
 .page-wrapper {
   background-image: url('./assets//background.png');
   background-size: 100%;

@@ -1,0 +1,20 @@
+.dispatcher-settings-page {
+    padding: 80px 0;
+    background-color: #f8f8f8; 
+    position: relative;
+  }
+  
+  .dispatcher-settings-page .container {
+    max-width: 600px;
+    margin: 0 auto; 
+    background-color: white; 
+    border-radius: 10px; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px; 
+  }
+  
+  .settings-form {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+  }

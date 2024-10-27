@@ -1,0 +1,42 @@
+.order-list-section {
+    margin-top: 30px;
+  }
+  
+  .order-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .order-list li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .order-from,
+  .order-to {
+    font-weight: bold;
+  }
+  
+  .order-status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .order-status.новый {
+    background-color: #ffc107; /* Желтый */
+    color: black;
+  }
+  
+  .order-status.принят {
+    background-color: #28a745; /* Зеленый */
+    color: white;
+  }
+  
+  .order-status.выполнен {
+    background-color: #6c757d; /* Серый */
+    color: white;
+  }

@@ -1,0 +1,161 @@
+.new-order-page {
+  padding: 80px 0;
+  background-color: #f8f8f8;
+  position: relative;
+}
+
+.new-order-page .container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+.location-input .MuiInputBase-root .MuiInputAdornment-root {
+  display: flex;
+  justify-content: center; /* Центрируем иконку */
+  color: black;
+  width: 40px; /*  Устанавливаем ширину для иконки (опционально) */
+}
+.new-order-page h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.location-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.location-input h3 {
+  margin-bottom: 5px;
+}
+
+.location-input input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.tariff-selection ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px; /* Отступ между кнопками */
+}
+
+.tariff-item {
+  border: 2px solid transparent; /*  Прозрачная рамка */
+  border-radius: 10px;
+  padding: 15px 25px;
+  cursor: pointer;
+  flex: 1; /*  Делаем тарифы одинаковой ширины */
+  text-align: center;
+  background-color: #fff; /*  Белый фон */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Тень */ 
+  transition: border-color 0.3s ease, transform 0.2s ease; /*  Плавные переходы */
+}
+
+.tariff-item:hover {
+  border-color: #ffc000; /*  Желтая рамка при наведении */
+  transform: translateY(-3px); /*  Легкий подъем при наведении */
+}
+
+.tariff-item.active {
+  background-color: #ffc000; /*  Желтый фон для выбранного тарифа */
+  border-color: #ffc000;
+}
+
+.tariff-name {
+  display: block;
+  font-weight: bold;
+  font-size: 1.2em; /*  Увеличим размер шрифта */
+}
+
+.tariff-price {
+  display: block;
+  font-size: 1em;
+  color: #666;
+}
+
+.order-button {
+  background: linear-gradient(to bottom, #ffc000, #ffb300); /*  Пример градиента */
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  transition: opacity 0.2s ease; /*  Анимация при наведении */
+}
+
+.order-button:hover {
+  opacity: 0.8;
+}
+
+.customer-reviews {
+  margin-top: 40px;
+}
+
+.map-container {
+  height: 400px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.estimated-waiting-time {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.payment-method,
+.additional-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.payment-method input[type="radio"] {
+  margin-right: 5px;
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.company-logo {
+  height: 90px;
+  margin-right: 10px;
+}
+
+.tariff-item.active {
+  background-color: #ffc000;
+  border-color: #ffc000;
+}
+
+.tariff-name {
+  display: block;
+  font-weight: bold;
+}
+
+.tariff-price {
+  display: block;
+  font-size: 0.9em;
+  color: #666;
+}
