@@ -29,14 +29,13 @@ function App() {
       <Navigation />
       <Hero onLearnMoreClick={scrollToNumbersSpeak} />
       <BookingForm />
-      <AboutUs />
-      <NumbersSpeak ref={numbersSpeakRef} />
+      <ChooseTaxi />
+      <RouteMap />
       <Element name="numbersSpeak">
         <CallToAction />
       </Element>
-
-      <ChooseTaxi />
-      <RouteMap />
+      <AboutUs />
+      <NumbersSpeak ref={numbersSpeakRef} />
     </div>
   );
 }

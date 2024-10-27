@@ -122,7 +122,7 @@ function ChooseTaxi() {
     ],
   };
 
-  const handleCategoryClick = (category) => {
+  const handleCategoryClick = (category: React.SetStateAction<string>) => {
     setSelectedCategory(category);
   };
 
@@ -172,7 +172,7 @@ function ChooseTaxi() {
         <div className="cars-grid">
           {cars[selectedCategory].map((car, index) => (
             <motion.div
-              key={`${selectedCategory}-${index}`} // Добавляем ключ, зависящий от категории
+              key={`${selectedCategory}-${index}`}
               className="car-item"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
@@ -183,11 +183,11 @@ function ChooseTaxi() {
               }}
             >
               <div className="image-container">
-                <motion.img // Оборачиваем картинку в motion.img
+                <motion.img
                   src={car.image}
                   alt={car.model}
-                  initial={{ opacity: 0, scale: 0.8 }} // Начальное состояние: невидимый, уменьшенный
-                  animate={{ opacity: 1, scale: 1 }} // Конечное состояние: видимый, нормальный размер
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.5, ease: "easeOut" }}
                 />
               </div>
@@ -195,7 +195,7 @@ function ChooseTaxi() {
                 <img src={car.logo} alt={car.model} />
               </div>
               <motion.h3
-                className="car-model" // Оборачиваем заголовок модели в motion.h3
+                className="car-model"
                 initial={{ opacity: 0, x: -30 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6, ease: "easeInOut" }}
@@ -208,7 +208,7 @@ function ChooseTaxi() {
                 <li>Кол-во пассажиров: {car.passengers}</li>
               </ul>
               <motion.button
-                className="book-taxi-button" // Оборачиваем кнопку в motion.button
+                className="book-taxi-button"
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.4, ease: "easeInOut" }}
