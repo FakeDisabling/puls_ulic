@@ -1,0 +1,48 @@
+.route-map {
+    padding: 10px 0;
+    position: relative;
+    background-color: #f8f8f8;
+  }
+  
+  .section-title {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px; 
+  }
+  
+  .map-container {
+    height: 600px;
+    margin-bottom: 40px;
+  }
+  
+  .map-placeholder {
+    width: 600px; 
+    height: 400px; 
+    background-color: #eee; 
+    border-radius: 10px;
+    border: 2px solid #ffc000;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+  }
+  .route-inputs {
+    margin-left: 40px; 
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+  }
+  
+  .input-group label {
+    font-weight: bold;
+    margin-bottom: 5px; 
+  }
+  
+  .input-group input {
+    width: 300px; 
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+  }

@@ -1,0 +1,58 @@
+.settings-page {
+  background-color: #f8f8f8;
+  position: relative;
+  font-size: large;
+}
+
+.settings-page .container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.settings-page h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.settings-form {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: large;
+}
+
+.save-button {
+  background-color: #ffc000;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center; /*  Центрируем кнопку */
+}
+
+.save-button:hover {
+  color: #ccc;
+  background-color: black;
+  transition: 0.1s;
+}

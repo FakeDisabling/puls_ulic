@@ -1,0 +1,37 @@
+.hero-text {
+  text-align: center;
+  position: relative;
+  opacity: 0; 
+  transition: opacity 1s ease-in-out;
+  height: 72vh;
+}
+  .main-title {
+    font-size: 5em;
+    font-weight: bold;
+    margin: 30px; 
+    color: white;
+  }
+  
+  .hero-description {
+    font-size: 1.5em;
+    color: rgb(126, 125, 125);
+  }
+  
+  .learn-more-button {
+    margin-top: 10px;
+    background-color: #ffc000;
+    color: black;
+    padding: 15px 30px; 
+    font-size: 1.2em;
+    border: none; 
+    border-radius: 9999px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .learn-more-button:hover {
+    opacity: 0.8;
+  }
+  .hero-text.visible {
+    opacity: 1; 
+  }

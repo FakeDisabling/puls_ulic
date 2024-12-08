@@ -1,0 +1,28 @@
+
+.main-menu {
+    background-color: #ffc000; 
+    border-radius: 9999px; 
+    margin: 0px auto 90px;
+    padding: 20px 0px;
+    width: 95%;
+    max-width: 900px; 
+    position: relative;
+  }
+  .main-menu ul {
+    display: flex; 
+    justify-content: space-between;
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-menu a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    font-weight: 600; 
+  }
+  
+  .main-menu a:hover {
+    color: rgb(92, 86, 4);
+  }

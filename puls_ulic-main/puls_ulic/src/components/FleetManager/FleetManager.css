@@ -1,0 +1,24 @@
+.fleet-manager {
+    background-color: #f8f8f8; 
+    position: relative;
+  }
+  
+  .fleet-manager .container {
+    max-width: 900px; 
+    margin: 0 auto; 
+    padding: 30px;
+  }
+  
+  .app-bar {
+    background-color: #3f51b5; /* Пример цвета */
+  }
+  
+  .drawer-paper {
+    width: drawerWidth;
+  }
+  
+  .drawer-header {
+    display: flex;
+    align-items: center;
+    padding: 20px; 
+  }
